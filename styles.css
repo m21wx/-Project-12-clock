@@ -1,0 +1,48 @@
+*{
+	padding:0;
+	margin:0;
+    box-sizing: border-box;
+	text-decoration: none;
+	list-style:none;
+}
+.clock{
+    background: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;	
+}
+.clock ul{
+	display: flex;
+    gap: 20px;	
+}
+
+.clock ul li{
+    background: #0009;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.clock ul li span:nth-child(2){
+    border-top: 1px solid #fff;	
+}
+@media(max-width:450px){
+	.clock ul{
+		flex-direction: column;
+	}
+}
+
+
+
+
+
+
+	
+	
